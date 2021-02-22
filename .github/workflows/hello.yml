@@ -3,7 +3,7 @@ name: Hello World!
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   hello_world_job:
@@ -12,3 +12,11 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+
+      - name: Today is
+        run: |
+          date
+
+      - name: Directory content
+        run: |
+          ls -la
