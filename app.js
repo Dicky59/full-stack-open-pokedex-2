@@ -18,3 +18,4 @@ app.get('/health', (_req, res) => {
 app.get('/version', (_req, res) => {
   res.send('4') // change this string to ensure a new version deployed
 })
+//Kommentti
