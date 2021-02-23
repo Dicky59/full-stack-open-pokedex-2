@@ -38,3 +38,4 @@ jobs:
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           healthcheck: https://dicky-pokedex2.herokuapp.com/health
           checkstring: ok
+          rollbackonhealthcheckfailed: true
